@@ -1,3 +1,13 @@
-.email {
-    width: 100%;
+.email_format {
+    margin: 25px;
+    background-color: white;
+    height: 200px;
+    overflow: auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.title {
+    font-size: 120%;
+    font-weight: bold;
 }
