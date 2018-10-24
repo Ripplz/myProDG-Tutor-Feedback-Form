@@ -40,7 +40,7 @@ class FeedbackList extends Component {
     return (
       <div className="container">
         <p>{this.state.noDataText}</p>
-        {this.state.data.map(feedback => <Feedback feedback={feedback} />)}
+        {this.state.data.map((feedback, index) => <Feedback key={index} feedback={feedback} />)}
       </div>
     );
   }
