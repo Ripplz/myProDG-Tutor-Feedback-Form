@@ -22,7 +22,7 @@ class FeedbackList extends Component {
           .then(response => response.json())
           .then(data => {
             this.setState({
-              data: data,
+              data: data.reverse(),
               noDataText: ""
             });
           })
